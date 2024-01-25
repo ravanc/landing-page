@@ -1,0 +1,213 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body > * {
+    padding: 0 15%;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* navbar section */
+
+.header, .signup, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.header a {
+    text-decoration-line: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* signup block section */
+
+.signup {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    align-items: center;
+}
+
+.signup-text, .signup-button {
+    flex: 1;
+}
+
+.signup-text * {
+    margin: 8px 0px;
+    padding-right: 40px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtitle, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button, .cta-box, .cta-button {
+    background-color: #3882F6;
+}
+
+.signup-button {
+    padding: 8px 32px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+/* disposable */
+
+.image {
+    width: 400px;
+    flex: 0 0 auto;
+}
+
+/* end-disposable */
+
+/* random info section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 150px;
+}
+
+.random-information {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    margin-top: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 12px;
+}
+
+.info {
+    border: 4px solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+/* quote section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* cta section */
+
+.cta-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cta-box {
+    border-radius: 8px;
+    display: flex;
+    color: #F9FAF8;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-subtitle {
+    font-size: 18px;
+}
+
+.cta-button {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 6px 32px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/* footer section */
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
